@@ -29,12 +29,13 @@ public class QuanLyNhanVien implements IQuanLy
     public void inDS()
     {
     //    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-
+        int dem =0;
         for(NhanVien i:ds)
         {
-            
+            dem++;
+            System.out.println("-- Nhân viên: "+dem+" --");
             System.out.println(i.getThongTin());
-            System.out.println("-----------");
+            System.out.println("---------------");
         }
     }
 
