@@ -37,9 +37,7 @@ public abstract class SinhVienPoly
         this.nganh = nganh;
     }
     
-    public double getDiem(){
-        return 0;
-    }
+    public abstract double getDiem();
     
     public String getHocLuc()
     {
