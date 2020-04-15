@@ -22,32 +22,6 @@ public class SinhVienIT extends SinhVienPoly
         this.diemHTML = diemHTML;
     }
 
-    
-    
-    public double getDiemJava() {
-        return diemJava;
-    }
-
-    public void setDiemJava(double diemJava) {
-        this.diemJava = diemJava;
-    }
-
-    public double getDiemCss() {
-        return diemCss;
-    }
-
-    public void setDiemCss(double diemCss) {
-        this.diemCss = diemCss;
-    }
-
-    public double getDiemHTML() {
-        return diemHTML;
-    }
-
-    public void setDiemHTML(double diemHTML) {
-        this.diemHTML = diemHTML;
-    }
-
     @Override
     public double getDiem() 
     {
