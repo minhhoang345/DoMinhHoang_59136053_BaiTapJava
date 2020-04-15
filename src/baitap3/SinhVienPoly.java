@@ -14,29 +14,11 @@ public abstract class SinhVienPoly
     String hoTen;
     String nganh;
 
-
-    
     public SinhVienPoly(String hoTen, String nganh) {
         this.hoTen = hoTen;
         this.nganh = nganh;
     }
 
-    public String getHoTen() {
-        return hoTen;
-    }
-
-    public void setHoTen(String hoTen) {
-        this.hoTen = hoTen;
-    }
-
-    public String getNganh() {
-        return nganh;
-    }
-
-    public void setNganh(String nganh) {
-        this.nganh = nganh;
-    }
-    
     public abstract double getDiem();
     
     public String getHocLuc()

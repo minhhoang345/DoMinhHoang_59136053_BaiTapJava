@@ -14,37 +14,22 @@ public class SinhVienBiz extends SinhVienPoly
     double diemMarketting;
     double diemSales;
 
-    public SinhVienBiz(double diemMarketting, double diemSales, String hoTen, String nganh) {
+    public SinhVienBiz(double diemMarketting, double diemSales, String hoTen, String nganh) 
+    {
         super(hoTen, nganh);
         this.diemMarketting = diemMarketting;
         this.diemSales = diemSales;
     }
 
-    
-
-    public double getDiemMarketting() {
-        return diemMarketting;
-    }
-
-    public void setDiemMarketting(double diemMarketting) {
-        this.diemMarketting = diemMarketting;
-    }
-
-    public double getDiemSales() {
-        return diemSales;
-    }
-
-    public void setDiemSales(double diemSales) {
-        this.diemSales = diemSales;
-    }
-
     @Override
-    public double getDiem() {
+    public double getDiem() 
+    {
         return ((2*diemMarketting+diemSales)/3); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void xuat() {
+    public void xuat() 
+    {
         super.xuat(); //To change body of generated methods, choose Tools | Templates.
         System.out.println("Điểm: "+getDiem()+"\n"+"Học lực: "+super.getHocLuc()+"\n");
     }

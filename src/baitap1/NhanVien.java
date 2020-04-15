@@ -17,9 +17,7 @@ public class NhanVien
     double tienluong;
     int tonggiolam;
 
-
-    public NhanVien()
-    {
+    public NhanVien() {
     }
 
     public NhanVien(String ten, int tuoi, String diachi, double tienluong, int tonggiolam)
@@ -28,22 +26,6 @@ public class NhanVien
         this.tuoi = tuoi;
         this.diachi = diachi;
         this.tienluong = tienluong;
-        this.tonggiolam = tonggiolam;
-    }
-
-    public double getTienluong() {
-        return tienluong;
-    }
-
-    public void setTienluong(double tienluong) {
-        this.tienluong = tienluong;
-    }
-
-    public int getTonggiolam() {
-        return tonggiolam;
-    }
-
-    public void setTonggiolam(int tonggiolam) {
         this.tonggiolam = tonggiolam;
     }
     
