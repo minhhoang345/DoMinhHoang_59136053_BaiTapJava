@@ -13,42 +13,42 @@ public class NhanVien
 {
     String ten;
     int tuoi;
-    String diachi;
-    double tienluong;
-    int tonggiolam;
+    String diaChi;
+    double tienLuong;
+    int tongGioLam;
 
     public NhanVien() {
     }
 
-    public NhanVien(String ten, int tuoi, String diachi, double tienluong, int tonggiolam)
+    public NhanVien(String ten, int tuoi, String diaChi, double tienLuong, int tongGioLam)
     {
         this.ten = ten;
         this.tuoi = tuoi;
-        this.diachi = diachi;
-        this.tienluong = tienluong;
-        this.tonggiolam = tonggiolam;
+        this.diaChi = diaChi;
+        this.tienLuong = tienLuong;
+        this.tongGioLam = tongGioLam;
     }
     
     public String getThongTin()
     {
         return "Tên: "+ ten +"\n"
                 +"Tuổi: " + tuoi+"\n"
-                +"Địa chỉ: "+ diachi +"\n"
-                +"Tiền lương: "+ tienluong +"\n"
-                +"Tổng giờ làm: "+ tonggiolam +"\n"
+                +"Địa chỉ: "+ diaChi +"\n"
+                +"Tiền lương: "+ tienLuong +"\n"
+                +"Tổng giờ làm: "+ tongGioLam +"\n"
                 +"Thưởng: " +tinhThuong();     
     }
     public double tinhThuong()
     {
-        if (tonggiolam>=200)
+        if (tongGioLam>=200)
         {
-            return tienluong *0.2;
+            return tienLuong *0.2;
         } 
         else 
         {
-            if (tonggiolam>=100) 
+            if (tongGioLam>=100) 
             {
-                return tienluong *0.1;
+                return tienLuong *0.1;
             } else
             {
                 return 0;
